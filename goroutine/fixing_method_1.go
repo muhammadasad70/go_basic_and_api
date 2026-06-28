@@ -7,15 +7,10 @@
 package main
 
 import (
-	"fmt"
 	"time"
 )
 
-func Hello_2() {
-	fmt.Println("Hello")
-
-}
 func WithSleepMethod() {
-	go Hello_2()
+	go Hello()
 	time.Sleep(1 * time.Second)
 }

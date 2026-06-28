@@ -7,6 +7,15 @@ import (
 func Hello() {
 	fmt.Println("Hello")
 }
+func Hello_1() {
+	fmt.Println("Hello from 1")
+}
+func Hello_2() {
+	fmt.Println("Hello from 2")
+}
+func Hello_3() {
+	fmt.Println("Hello from 3")
+}
 
 // go hello()  go is the keyword use to create the goroutine
 // fmt.Println("Main")

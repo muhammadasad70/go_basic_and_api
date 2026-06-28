@@ -13,7 +13,8 @@ import (
 func main() {
 	// go Hello()
 	// WithSleepMethod()
-	WitGroup_Method()
+	// WitGroup_Method()
+	WitGroup_Method_2()
 	fmt.Println("Bye")
 
 }
