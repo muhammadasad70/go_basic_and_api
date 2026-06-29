@@ -35,7 +35,6 @@ func WitGroup_Method_2() {
 		defer wg.Done()
 		Hello_3()
 	}()
-
 	wg.Wait()
 	fmt.Println("printing 3 out of 3")
 }
