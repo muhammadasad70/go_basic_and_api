@@ -13,7 +13,8 @@ func main() {
 	// WitGroup_Method_2()
 	// fmt.Println("Bye")
 
-	Method()
+	RaceCondition_Method_1()
+	// RaceCondition_Method_2()
 
 	// var wg sync.WaitGroup
 
@@ -22,5 +23,9 @@ func main() {
 	// 	go PrintNumber(i, &wg)
 	// }
 	// wg.Wait()
+
+	//Mutex method execution here
+
+	// Mutex_Method()
 
 }
