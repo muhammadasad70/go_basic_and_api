@@ -27,6 +27,8 @@ func main() {
 	//Mutex method execution here
 
 	// Mutex_Method()
-	ReadWrite_Method()
+	// ReadWrite_Method()
+	// channels_method()
+	Task_Method()
 
 }
