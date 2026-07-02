@@ -30,6 +30,7 @@ func main() {
 	// ReadWrite_Method()
 	// Channels_method()
 	// Task_Method()
-	Unbuffered_Method()
+	// Unbuffered_Method()
+	Buffered_Method()
 
 }
