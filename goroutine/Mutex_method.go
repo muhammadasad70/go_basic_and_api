@@ -9,9 +9,9 @@ var mu sync.Mutex
 
 func IncrementNum(wg *sync.WaitGroup) {
 	defer wg.Done()
-	mu.Lock()
+	defer mu.Lock()
 	counter++
-	mu.Unlock()
+	defer mu.Unlock()
 }
 
 func Mutex_Method() {
