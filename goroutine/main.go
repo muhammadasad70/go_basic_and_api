@@ -32,6 +32,7 @@ func main() {
 	// Task_Method()
 	// Unbuffered_Method()
 	// Buffered_Method()
-	ClosingChennel()
+	// ClosingChennel()
+	Implement()
 
 }
