@@ -36,6 +36,7 @@ func main() {
 	// Implement()
 	// SelectStatement()
 	// SelectStatementTimeout()
-	SquareImplement()
+	// SquareImplement()
+	Counter()
 
 }
