@@ -9,7 +9,7 @@ func SelectStatementTimeout() {
 	ch1 := make(chan string)
 
 	go func() {
-		time.Sleep(1 * time.Second)
+		time.Sleep(3 * time.Second)
 		ch1 <- "Data from channel_1"
 	}()
 

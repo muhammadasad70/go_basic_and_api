@@ -35,6 +35,7 @@ func main() {
 	// ClosingChennel()
 	// Implement()
 	// SelectStatement()
-	SelectStatementTimeout()
+	// SelectStatementTimeout()
+	SquareImplement()
 
 }

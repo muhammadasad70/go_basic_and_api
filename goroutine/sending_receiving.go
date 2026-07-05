@@ -4,6 +4,9 @@ import "fmt"
 
 func sendData(ch chan<- int) {
 	ch <- 10
+	ch <- 20
+	ch <- 30
+
 	close(ch)
 }
 
@@ -14,7 +17,7 @@ func receiveData(ch <-chan int) {
 }
 
 func Implement() {
-	ch := make(chan int)
+	ch := make(chan int, 3)
 
 	go sendData(ch)
 
